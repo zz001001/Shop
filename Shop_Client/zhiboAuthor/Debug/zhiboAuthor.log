@@ -1,0 +1,6 @@
+﻿  zhiboAuthorDlg.cpp
+d:\科林习题\！！科林上课练习\直播\zhiboauthor\packdef\packdef.h(80): warning C4005: “_register_success”: 宏重定义
+  d:\科林习题\！！科林上课练习\直播\zhiboauthor\packdef\packdef.h(76): note: 参见“_register_success”的前一个定义
+d:\科林习题\！！科林上课练习\直播\zhiboauthor\zhiboauthor\zhiboauthordlg.cpp(182): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+  zhiboAuthor.vcxproj -> D:\科林习题\！！科林上课练习\直播\zhiboAuthor\Debug\zhiboAuthor.exe
+  zhiboAuthor.vcxproj -> D:\科林习题\！！科林上课练习\直播\zhiboAuthor\Debug\zhiboAuthor.pdb (Full PDB)

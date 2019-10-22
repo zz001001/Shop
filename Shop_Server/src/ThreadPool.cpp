@@ -45,7 +45,7 @@ bool CMyThreadPool::CreateThreadPool(__uint32_t nMinThread, __uint32_t nMaxThrea
 		++m_nCurrentThread;
 	}
 	//创建管理者线程
-	 if((err=pthread_create(&m_managerid,NULL,Manager,this))>0)
+	/*   if((err=pthread_create(&m_managerid,NULL,Manager,this))>0)
 	{
 		cout<<"create thread fail:"<<strerror(err)<<endl;
 		return false;
@@ -54,8 +54,8 @@ bool CMyThreadPool::CreateThreadPool(__uint32_t nMinThread, __uint32_t nMaxThrea
 	{
 		cout<<"set thread detach fail:"<<strerror(err)<<endl;
 		return false;
-	}  
-
+	} */ 
+	cout<<"create ThreadPool success"<<endl;
 	return true;
 }
 
